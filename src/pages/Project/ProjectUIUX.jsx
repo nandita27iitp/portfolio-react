@@ -1,54 +1,37 @@
-import React, { useState } from 'react'
-import './ProjectPage.css';
-
-/* Modal */
-import Modal from "./Modal";
+import React from "react";
+import "./ProjectPage.css";
 
 /* React router */
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 /* Componet */
-import HeaderPage from '../../components/Header/HeaderPage';
-import Footer from '../../components/Footer/Footer';
+import HeaderPage from "../../components/Header/HeaderPage";
+import Footer from "../../components/Footer/Footer";
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
-import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
-
-/* Img */
-const proyectsImg = require.context('../../img', true);
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 const ProjectGame = () => {
-    const [estadoModal4, cambiarEstadoModal4] = useState(false);
-    const [estadoModal3, cambiarEstadoModal3] = useState(false);
-    const [estadoModal2, cambiarEstadoModal2] = useState(false);
-    const [estadoModal1, cambiarEstadoModal1] = useState(false);
+  return (
+    <div>
+      <HeaderPage />
 
+      <ParticleBackground />
 
-    return (
-        <div>
+      <main>
+        <section className="proyectos mas-proyect" id="proyectos">
+          <h1 className="heading">Projects</h1>
+          <nav className="navbar nav-proj">
+            <NavLink to="/project-site" offset={-150} duration={500}>
+              Websites
+            </NavLink>
 
-            <HeaderPage />
+            <NavLink to="/project/uiux" offset={-150} duration={500}>
+              UI/UX
+            </NavLink>
+          </nav>
+        </section>
 
-            <ParticleBackground />
-
-            <main>
-                <section className="proyectos mas-proyect" id="proyectos">
-                    <h1 className="heading">
-                        Projects
-                    </h1>
-                    <nav className="navbar nav-proj">
-                        <NavLink to="/project-site" offset={-150} duration={500}>
-                          Websites
-                        </NavLink>
-                        <NavLink to="/project/app" offset={-150} duration={500}>
-                            Apps
-                        </NavLink>
-                        <NavLink to="/project/uiux" offset={-150} duration={500}>
-                            UI/UX
-                        </NavLink>
-                    </nav>
-                </section>
-
-                <section className="projects__grid games">
+        {/*<section className="projects__grid games">
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal4(!estadoModal4)}>
                             <img src={proyectsImg(`./proyecto-game-4.jpg`)} alt="" className="projects__img" />
@@ -69,10 +52,11 @@ const ProjectGame = () => {
                             <img src={proyectsImg(`./proyecto-game-1.jpg`)} alt="" className="projects__img" />
                         </a>
                     </div>
-                </section>
-            </main>
+    </section>*/}
+        <h1 style={{ color: "#f40373" }}> Coming soon!!</h1>
+      </main>
 
-            <Modal
+      {/*<Modal
                 estado={estadoModal4}
                 cambiarEstado={cambiarEstadoModal4}
             >
@@ -103,12 +87,12 @@ const ProjectGame = () => {
                         </div>
                     </div>
                 </div>
-            </Modal>
+</Modal>*/}
 
-            <ScrollToTop />
+      <ScrollToTop />
 
-            <Footer />
-        </div>
-    )
-}
+      <Footer />
+    </div>
+  );
+};
 export default ProjectGame;

@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
 :root {
-  --green: #00e5fe;
-  --secundario: #15b8ca;
-  --terciario: #00fefe;
-  --black: #121f41;
+  --green: #f40373;
+  --secundario: #9c034a;
+  --terciario: #f660a6;
+  --black: #000;
   --light-color: #788E9C;
   --light-color-white: #353e44;
   --white: #fff;
@@ -28,7 +28,7 @@
 
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Bitter', serif;
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;

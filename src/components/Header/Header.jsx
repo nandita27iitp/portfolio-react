@@ -49,7 +49,7 @@ const Header = () => {
             <Link to="contact" spy={true} offset={-150} href="#contact">
               Contact
             </Link>
-            <a href="https://nanditablogs9.wordpress.com/" target="_blank">Blog</a>
+            <a href="https://nanditablogs9.wordpress.com/" target="_blank" rel="noreferrer">Blog</a>
           </nav>
           <div className="switch" id="switch">
             <DarkMode />

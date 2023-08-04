@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../pages/About/AboutPage.css'
 import { Link } from 'react-router-dom';
-import cv from '../../cv/cv.pdf';
+import imgabout from "../../img/nandita2.jpg"
 import { ButtomGet } from '../ButtomGet/ButtomGet';
 
 const About = () => (
@@ -13,15 +13,18 @@ const About = () => (
         <div className="row container">
             <div className="columns" data-aos="fade-right" data-aos-delay="300">
                 <h4>
-                My name is Nandita Gupta and I am a passionate Competitive Programmer and a MERN Stack Developer.
+                I'm Nandita Gupta, a Competitive Programmer and a MERN Stack Developer.
                 </h4>
                 <p>
                 I am currently doing B.Tech in Metallurgical and Materials Engineering from Indian Institute of Technology(IIT), Patna. I am a passionate Programmer, MERN Stack Developer and a UI/UX Designer. I enjoy working on interesting projects and design challenges. I am proficient in C, C++, Python and also familiar with different frameworks like React.js, Node.js etc.
+                Characterizing myself as self-taught, I am dedicated to a
+                  continuous learning process.
                 </p>
+
+                <div className="about-img-container">
+              <img src={imgabout} alt="my-self" className="about-img2" />
+            </div>
                 <div className="mas-info">
-                    <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo buttonDownload">
-                    Download CV
-                    </a>
                     <div className='mas-info-btn'>
                     <Link to="/about-me">
                         <ButtomGet/>

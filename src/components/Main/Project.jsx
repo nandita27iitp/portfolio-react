@@ -51,30 +51,20 @@ const Project = () => {
           className="project-slider mySwiper"
         >
           <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-app-18.png`)} alt="project" />
+            <img src={projectImg(`./netflix_clone.png`)} alt="project" />
             <div className="content-pg">
-              <h3>CoinPlus</h3>
-              <p>Trading platform for cryptocurrencies</p>
+              <h3>Netflix Clone</h3>
+              <p>MERN Stack Website inspired from Netflix</p>
               <p className="tecnologias">
-                React
-                <span> -</span> CSS
-                <span> -</span> Redux
-                <span> -</span> Bootstrap
-                <span> -</span> TypeScript
-                <span> -</span> Solidity
-                <span> -</span> NodeJS
+                React.js
+                <span> -</span> Express.js
+                <span> -</span> Redux-Toolkit
                 <span> -</span> MongoDB
+                <span> -</span> Node.js
+                <span> -</span> Firebase
               </p>
               <a
-                href="https://coin-plus.vercel.app/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/CoinPlus"
+                href="https://github.com/nandita27iitp/netflixclone"
                 className="custom-btn btn-codigo"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -84,27 +74,20 @@ const Project = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-14.jpg`)} alt="project" />
+            <img src={projectImg(`./movies_app.png`)} alt="project" />
             <div className="content-pg">
-              <h3>Justice</h3>
-              <p>lawyers website</p>
+              <h3>OMDb Movies App</h3>
+              <p>A React.js website that displays movie information from
+                the OMDb API.</p>
               <p className="tecnologias">
                 HTML5
                 <span> -</span> CSS
                 <span> -</span> JavaScript
-                <span> -</span> jQuery
-                <span> -</span> Bootstrap
+                <span> -</span> React.js
+                <span> -</span> REST API
               </p>
               <a
-                href="https://nahuel61920.github.io/Justice/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/Justice"
+                href="https://github.com/nandita27iitp/movies-app"
                 className="custom-btn btn-codigo"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -113,266 +96,7 @@ const Project = () => {
               </a>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-app-17.png`)} alt="project" />
-            <div className="content-pg">
-              <h3>PI Dogs</h3>
-              <p>Individual Project</p>
-              <p className="tecnologias">
-                React
-                <span> -</span> CSS
-                <span> -</span> Redux
-                <span> -</span> NodeJS
-                <span> -</span> ExpressJS
-                <span> -</span> Sequelize
-                <span> -</span> PostgreSQL
-              </p>
-              <a
-                href="https://pi-dogs-main-ashy.vercel.app/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/PI-DOGS-MAIN"
-                className="custom-btn btn-codigo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-7.jpg`)} alt="project" />
-            <div className="content-pg">
-              <h3>Power Engine</h3>
-              <p>Automobiles Website</p>
-              <p className="tecnologias">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-              </p>
-              <a
-                href="https://nahuel61920.github.io/Power-Engine/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/Power-Engine"
-                className="custom-btn btn-codigo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-6.jpg`)} alt="project" />
-            <div className="content-pg">
-              <h3>Spider-Man fan page</h3>
-              <p>Fan page Spider-Man</p>
-              <p className="tecnologias">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-                <span> -</span> Bootstrap
-              </p>
-              <a
-                href="https://nahuel61920.github.io/Spider-Man/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/Spider-Man"
-                className="custom-btn btn-codigo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-12.jpg`)} alt="project" />
-            <div className="content-pg">
-              <h3>EveryRunnig</h3>
-              <p>Website shoes</p>
-              <p className="tecnologias">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-                <span> -</span> Bootstrap
-              </p>
-              <a
-                href="https://nahuel61920.github.io/EveryRunning/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/EveryRunning"
-                className="custom-btn btn-codigo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-5.jpg`)} alt="project" />
-            <div className="content-pg">
-              <h3>Premier Food</h3>
-              <p>Fast food</p>
-              <p className="tecnologias">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-                <span> -</span> Sass
-              </p>
-              <a
-                href="https://nahuel61920.github.io/PremierFood/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/PremierFood"
-                className="custom-btn btn-codigo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-8.jpg`)} alt="project" />
-            <div className="content-pg">
-              <h3>ShopTec</h3>
-              <p>Ecommerce</p>
-              <p className="tecnologias">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> Sass
-                <span> -</span> JavaScript
-              </p>
-              <a
-                href="https://nahuel61920.github.io/shop-tec/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/shop-tec"
-                className="custom-btn btn-codigo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-10.jpg`)} alt="project" />
-            <div className="content-pg">
-              <h3>Elegant Hand</h3>
-              <p>Watch Shop</p>
-              <p className="tecnologias">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-              </p>
-              <a
-                href="https://nahuel61920.github.io/ElegantHand/ "
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/ElegantHand"
-                className="custom-btn btn-codigo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-9.jpg`)} alt="project" />
-            <div className="content-pg">
-              <h3>Vida en papel</h3>
-              <p>Bookstore</p>
-              <p className="tecnologias">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-              </p>
-              <a
-                href="https://nahuel61920.github.io/vida-en-papel/ "
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/vida-en-papel"
-                className="custom-btn btn-codigo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="caja">
-            <img src={projectImg(`./proyecto-11.jpg`)} alt="project" />
-            <div className="content-pg">
-              <h3>Plus Anime</h3>
-              <p>Anime website</p>
-              <p className="tecnologias">
-                HTML5
-                <span> -</span> CSS
-                <span> -</span> JavaScript
-              </p>
-              <a
-                href="https://nahuel61920.github.io/PlusAnime/"
-                className="custom-btn btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span>Demo</span>
-              </a>
-              <a
-                href="https://github.com/Nahuel61920/PlusAnime"
-                className="custom-btn btn-codigo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Repository
-              </a>
-            </div>
-          </SwiperSlide>
+        
         </Swiper>
         <div className="swiper-pagination"></div>
       </div>

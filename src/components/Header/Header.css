@@ -16,7 +16,7 @@
 .site-header .logo {
   font-family: "Bebas Neue", cursive;
   font-size: 2.6rem;
-  color: rgb(231, 13, 13);
+  color: #f40373;
 }
 
 .site-header .logo span {
@@ -79,7 +79,7 @@
 }
 
 body.light #darkMode {
-  background: #343d5b;
+  background: #000;
   border-radius: 100px;
   border: none;
   position: relative;
@@ -107,7 +107,7 @@ body.light #darkMode::after {
 }
 
 body.dark #darkMode {
-  background: orange;
+  background: var(--green);
   color: #000;
   border-radius: 100px;
   border: none;

@@ -171,7 +171,7 @@ function ProjectApp() {
                     The application has an authentication system, so that the user can access their account and carry out the operations they want, it also has a section where you can see the evolution of the different cryptocurrencies.
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://coin-plus.vercel.app/" target="_blank">https://coin-plus.vercel.app/</a>
+                                <span>Link:</span> <a href="https://coin-plus.vercel.app/" target="_blank" rel="noreferrer">https://coin-plus.vercel.app/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>

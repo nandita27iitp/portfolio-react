@@ -48,7 +48,7 @@
     transition: all 0.1s ease-out !important;
     border: 2px solid white;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.455);
+    background-color: #e692b874;
 }
 
 .wrapper .icon img {
@@ -65,10 +65,10 @@
 }
 
 .name:hover {
-    text-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 100px #03e9f4;
+    text-shadow: 0 0 5px #f40373,
+        0 0 25px #f40373,
+        0 0 50px #f40373,
+        0 0 100px #f40373;
 }
 
 .scroll-down {

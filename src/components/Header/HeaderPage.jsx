@@ -44,7 +44,7 @@ const HeaderPage = () => {
                 <NavLink to="/contact-me" offset={-150} duration={500}>
                     Contact
                 </NavLink>
-                <a href="https://nanditablogs9.wordpress.com/" target="_blank" offset={-150} duration={500}>
+                <a href="https://nanditablogs9.wordpress.com/" target="_blank" offset={-150} duration={500} rel="noreferrer">
                     Blog
                 </a>
             </nav>

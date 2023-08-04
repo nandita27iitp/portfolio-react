@@ -37,7 +37,7 @@ body.dark .navbar a {
 
 body.dark .navbar a.active::before,
 body.dark .navbar .active-link::before {
-  background: var(--green);
+  background: var(--secundario);
 }
 
 /********************** Sobre Mi **********************/
