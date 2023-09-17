@@ -16,7 +16,7 @@ const About = () => (
                 I'm Nandita Gupta, a Competitive Programmer and a MERN Stack Developer.
                 </h4>
                 <p>
-                I am currently doing B.Tech in Metallurgical and Materials Engineering from Indian Institute of Technology(IIT), Patna. I am a passionate Programmer, MERN Stack Developer and a UI/UX Designer. I enjoy working on interesting projects and design challenges. I am proficient in C, C++, Python and also familiar with different frameworks like React.js, Node.js etc.
+                I am currently doing B.Tech from Indian Institute of Technology(IIT), Patna. I am a passionate Programmer, MERN Stack Developer and a UI/UX Designer. I enjoy working on interesting projects and design challenges. I am proficient in C, C++, Python and also familiar with different frameworks like React.js, Node.js etc.
                 Characterizing myself as self-taught, I am dedicated to a
                   continuous learning process.
                 </p>
