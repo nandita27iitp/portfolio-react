@@ -39,8 +39,7 @@ const About = () => {
             <div className="about-info">
               <p> Hi, </p>
               <p>
-                I am Nandita Gupta, currently pursuing a B.Tech in Metallurgical
-                and Materials Engineering at the esteemed Indian Institute of
+                I am Nandita Gupta, currently pursuing a B.Tech at the esteemed Indian Institute of
                 Technology (IIT), Patna.
               </p>
               <p>
