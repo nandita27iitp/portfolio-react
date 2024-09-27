@@ -26,7 +26,7 @@ const Content = () => (
 
         <div className="wrapper">
           <a
-            href="https://codeforces.com/profile/nandita27iitp"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
@@ -37,7 +37,7 @@ const Content = () => (
             </div>
           </a>
           <a
-            href="https://www.codechef.com/users/nandita27iitp"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
@@ -48,7 +48,7 @@ const Content = () => (
             </div>
           </a>
           <a
-            href="https://leetcode.com/nandita27iitp/"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
@@ -60,7 +60,7 @@ const Content = () => (
           </a>
 
           <a
-            href="https://www.hackerrank.com/nandita27iitp?hr_r=1"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             data-aos="fade-up"
