@@ -122,7 +122,7 @@ const Contact = () => {
                     Facebook
                 </div>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=9548567623" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -134,7 +134,7 @@ const Contact = () => {
                     WhatsApp
                 </div>
             </a>
-            <a href="https://linktr.ee/nandita27iitp" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
+            <a href="" target="_blank" rel="noopener noreferrer" data-aos="zoom-in">
                 <div className="layer">
                     <span></span>
                     <span></span>
